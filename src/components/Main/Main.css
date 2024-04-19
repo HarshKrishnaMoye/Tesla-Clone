@@ -1,0 +1,90 @@
+.wrap1{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  #myVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.itemText1{
+    padding-top: 70vh;
+    padding-right: 44vw;
+    text-align: start;
+    z-index: 1;
+}
+
+.itemText1 h1{
+    color: white;
+    font-weight: 500;
+}
+.itemText1 p{
+    color: white;
+}
+
+.buttons1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+
+    @media (max-width:768px) {
+        flex-direction: column;
+    }
+}
+
+
+
+.button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 256px;
+    border: none;
+    border-radius: 9px;
+    opacity: 0.85;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 8px;
+    z-index: 1;
+    font-weight: 600;
+    margin-right: 75vw;
+
+}
+
+
+.rightButton1{
+    background-color: white;
+    opacity: 0.65;
+    color: black;
+
+}
+
+.downArrow{
+    height: 40px;
+    animation: animateDown infinite 1.5s;
+    overflow-x: hidden;
+}
